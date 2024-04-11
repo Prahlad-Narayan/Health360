@@ -1,0 +1,53 @@
+openapi: 3.1.0
+info:
+  title: Health360 - Blogs
+  description: Rest API for Health360 Application
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /blog/posts:
+    get:
+      description: Get all blog posts
+      operationId: getAllBlogPosts
+      responses:
+        '200':
+          description: List of all blog posts retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BlogPostsList'
+        '500':
+          description: Internal Server Error. Unable to fetch blog posts.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+components:
+  schemas:
+    BlogPostsList:
+      type: array
+      items:
+        type: object
+        properties:
+          postId:
+            type: integer
+            example: 1
+          title:
+            type: string
+            example: "Health Tips and Recipes"
+    Error500:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 500
+          examples:
+            - Internal Server Error
+          message:
+            type: string
+            description: 500 Internal Server Error
+            examples:
+              - Internal Server Error

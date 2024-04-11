@@ -1,0 +1,111 @@
+openapi: 3.1.0
+info:
+  title: Health360 - Diet
+  description: Rest API for Health360 Application
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /diet-plans:
+    get:
+      description: Get all diet plans
+      operationId: getAllDietPlans
+      responses:
+        '200':
+          description: List of all diet plans retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DietPlansList'
+        '500':
+          description: Internal Server Error. Unable to fetch diet plans.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+  /foods/{foodId}:
+    get:
+      summary: Get food details
+      operationId: getFoodDetails
+      parameters:
+        - name: foodId
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 456
+      responses:
+        '200':
+          description: Food details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FoodDetails'
+        '404':
+          description: Not Found. Food with the given ID doesn't exist.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error404"
+        '500':
+          description: Internal Server Error. Unable to fetch food details.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+components:
+  schemas:
+    DietPlansList:
+      type: array
+      items:
+        type: object
+        properties:
+          planId:
+            type: integer
+            example: 1
+          planName:
+            type: string
+            example: "Vegan Diet"
+    FoodDetails:
+      type: object
+      properties:
+        foodId:
+          type: integer
+          example: 456
+        foodName:
+          type: string
+          example: "Apple"
+        calories:
+          type: integer
+          example: 95
+    Error404:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 404
+          examples:
+            - Value Not found
+          message:
+            type: string
+            description: 404 Not found
+            examples:
+              - Not Found
+    Error500:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 500
+          examples:
+            - Internal Server Error
+          message:
+            type: string
+            description: 500 Internal Server Error
+            examples:
+              - Internal Server Error

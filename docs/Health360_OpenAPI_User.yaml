@@ -1,0 +1,158 @@
+openapi: 3.1.0
+info:
+  title: Health360 - User API
+  description: Rest APIs for the Health360 Application
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /users:
+    post:
+      operationId: createUser
+      description: Create a new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: "kevin_thelly"
+                password:
+                  type: string
+                  example: "P@ssw0rd"
+                email:
+                  type: string
+                  example: "kthelly@example.com"
+      responses:
+        '201':
+          description: User created successfully
+        '500':
+          description: Internal Server Error. Unable to create a user.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+  /user-profile/{userId}:
+    get:
+      summary: Get user profile
+      operationId: getUserProfile
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 123
+      responses:
+        '200':
+          description: User profile retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserProfile'
+        "404":
+          description: Not Found. User with the given ID doesn't exist
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error404"
+        '500':
+          description: Internal Server Error. Unable to fetch user profile.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+    put:
+      description: Update user profile
+      operationId: updateUserProfile
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 123
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                age:
+                  type: integer
+                  example: 30
+                height:
+                  type: integer
+                  example: 175
+                weight:
+                  type: integer
+                  example: 70
+                fitnessGoal:
+                  type: string
+                  example: "Lose weight"
+      responses:
+        '200':
+          description: User profile updated successfully
+        '404':
+          description: Not Found. User with the given ID doesn't exist.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error404"
+        '500':
+          description: Internal Server Error. Unable to update user profile.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+components:
+  schemas:
+    UserProfile:
+      type: object
+      properties:
+        userId:
+          type: integer
+          example: 123
+        username:
+          type: string
+          example: "kevin_thelly"
+        email:
+          type: string
+          example: "kthelly@example.com"
+    Error404:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 404
+          examples:
+            - Value Not found
+          message:
+            type: string
+            description: 404 Not found
+            examples:
+              - Not Found
+    Error500:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 500
+          examples:
+            - Internal Server Error
+          message:
+            type: string
+            description: 500 Internal Server Error
+            examples:
+              - Internal Server Error

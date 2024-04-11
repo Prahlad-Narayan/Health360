@@ -1,0 +1,111 @@
+openapi: 3.1.0
+info:
+  title: Health360 - Workout
+  description: Rest API for Health360 Application
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+paths:
+  /exercises/{exerciseId}:
+    get:
+      description: Get exercise details
+      operationId: getExerciseDetails
+      parameters:
+        - name: exerciseId
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 789
+      responses:
+        '200':
+          description: Exercise details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ExerciseDetails'
+        '404':
+          description: Not Found. User with the given ID doesn't exist.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error404"
+        '500':
+          description: Internal Server Error. Unable to update user profile.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+  /workout-plans:
+    get:
+      description: Get all workout plans
+      operationId: getAllWorkoutPlans
+      responses:
+        '200':
+          description: List of all workout plans retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkoutPlansList'
+        '500':
+          description: Internal Server Error. Unable to update user profile.
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: "#/components/schemas/Error500"
+
+components:
+  schemas:
+    ExerciseDetails:
+      type: object
+      properties:
+        exerciseId:
+          type: integer
+          example: 789
+        exerciseName:
+          type: string
+          example: "Running"
+        caloriesBurnedPerHour:
+          type: integer
+          example: 600
+    WorkoutPlansList:
+      type: array
+      items:
+        type: object
+        properties:
+          planId:
+            type: integer
+            example: 1
+          planName:
+            type: string
+            example: "Cardio Workout"
+    Error404:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 404
+          examples:
+            - Value Not found
+          message:
+            type: string
+            description: 404 Not found
+            examples:
+              - Not Found
+    Error500:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Error code 500
+          examples:
+            - Internal Server Error
+          message:
+            type: string
+            description: 500 Internal Server Error
+            examples:
+              - Internal Server Error
