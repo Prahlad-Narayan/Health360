@@ -1,0 +1,260 @@
+{
+  "workout_plans": [
+    {
+      "goal": "weight_loss",
+      "plan_name": "Weight Loss Plan",
+      "workouts": [
+        {
+          "day": "Monday",
+          "exercise": "Cardio and Strength Training",
+          "details": "Running or Cycling or Jump Rope",
+          "duration_for_cardio": "30 minutes",
+          "focus": "Full-body",
+          "strength_training_details": [
+            "Squats",
+            "Push-ups",
+            "Dumbbell Rows"
+          ],
+          "reps": "15 repetitions X 3 sets",
+          "weights": "Low weights",
+          "calories_burned": 300
+        },
+        {
+          "day": "Tuesday",
+          "exercise": "High-Intensity Interval Training (HIIT)",
+          "duration_for_cardio": "20 minutes",
+          "details": [
+            "Planks",
+            "Crunches",
+            "Leg Raises"
+          ],
+          "reps": "15 repetitions X 3 sets",
+          "calories_burned": 250
+        },
+        {
+          "day": "Wednesday",
+          "rest_day": true,
+          "details": "Yoga or walking",
+          "calories_burned": 150
+        },
+        {
+          "day": "Thursday",
+          "exercise": "Cardio and Strength Training",
+          "details": "Brisk walking or Swimming",
+          "duration_for_cardio": "45 minutes",
+          "focus": "Target specific muscle groups",
+          "strength_training_details": [
+            "Lunges",
+            "Bicep Curls",
+            "Tricep Dips"
+          ],
+          "reps": "12 repetitions X 3 sets",
+          "weights": "Moderate weights",
+          "calories_burned": 400
+        },
+        {
+          "day": "Friday",
+          "exercise": "High-Intensity Interval Training (HIIT)",
+          "duration_for_cardio": "25 minutes",
+          "details": [
+            "Russian Twists",
+            "Mountain Climbers",
+            "Bicycle Crunches"
+          ],
+          "reps": "15 repetitions X 3 sets",
+          "calories_burned": 300
+        },
+        {
+          "day": "Saturday",
+          "rest_day": false,
+          "details": "Hiking, biking, or light sports",
+          "calories_burned": 200
+        },
+        {
+          "day": "Sunday",
+          "exercise": "Cardio and Strength Training",
+          "details": "Jogging or Cycling",
+          "duration_for_cardio": "60 minutes",
+          "focus": "Target specific muscle groups",
+          "strength_training_details": [
+            "Lunges",
+            "Bicep Curls",
+            "Tricep Dips"
+          ],
+          "reps": "12 repetitions X 3 sets",
+          "weights": "Moderate weights",
+          "calories_burned": 500
+        }
+      ]
+    },
+    {
+      "goal": "weight_gain",
+      "plan_name": "Weight Gain Plan",
+      "workouts": [
+        {
+          "day": "Monday",
+          "exercise": "Compound Movements",
+          "details": "Squats, Deadlifts, Bench Press",
+          "duration_for_cardio": "20 minutes",
+          "focus": "Full-body",
+          "strength_training_details": [
+            "Barbell Squats",
+            "Deadlifts",
+            "Bench Press"
+          ],
+          "reps": "8-10 repetitions X 4 sets",
+          "weights": "Heavy weights",
+          "calories_burned": 250
+        },
+        {
+          "day": "Tuesday",
+          "exercise": "Weighted Calisthenics",
+          "duration_for_cardio": "15 minutes",
+          "details": [
+            "Weighted Pull-ups",
+            "Weighted Dips",
+            "Weighted Push-ups"
+          ],
+          "reps": "8-12 repetitions X 4 sets",
+          "calories_burned": 200
+        },
+        {
+          "day": "Wednesday",
+          "rest_day": true,
+          "details": "Rest and Recovery",
+          "calories_burned": 100
+        },
+        {
+          "day": "Thursday",
+          "exercise": "Isolation Movements",
+          "details": "Bicep Curls, Tricep Extensions, Leg Curls",
+          "duration_for_cardio": "15 minutes",
+          "focus": "Target specific muscle groups",
+          "strength_training_details": [
+            "Bicep Curls",
+            "Tricep Extensions",
+            "Leg Curls"
+          ],
+          "reps": "10-12 repetitions X 3 sets",
+          "weights": "Moderate weights",
+          "calories_burned": 180
+        },
+        {
+          "day": "Friday",
+          "exercise": "Hypertrophy Training",
+          "duration_for_cardio": "20 minutes",
+          "details": [
+            "Chest Flyes",
+            "Lateral Raises",
+            "Hammer Curls"
+          ],
+          "reps": "12-15 repetitions X 3 sets",
+          "calories_burned": 220
+        },
+        {
+          "day": "Saturday",
+          "rest_day": false,
+          "details": "Light Cardio and Active Recovery",
+          "calories_burned": 120
+        },
+        {
+          "day": "Sunday",
+          "exercise": "Functional Training",
+          "details": "Kettlebell Swings, Medicine Ball Throws",
+          "duration_for_cardio": "25 minutes",
+          "focus": "Full-body functional movements",
+          "strength_training_details": [
+            "Kettlebell Swings",
+            "Medicine Ball Throws"
+          ],
+          "reps": "15-20 repetitions X 3 sets",
+          "weights": "Moderate weights",
+          "calories_burned": 280
+        }
+      ]
+    },
+    {
+      "goal": "weight_maintenance",
+      "plan_name": "Weight Maintenance Plan",
+      "workouts": [
+        {
+          "day": "Monday",
+          "exercise": "Cardio and Strength Training Mix",
+          "details": "Running, Cycling, Bodyweight Exercises",
+          "duration_for_cardio": "30 minutes",
+          "focus": "Full-body",
+          "strength_training_details": [
+            "Bodyweight Squats",
+            "Push-ups",
+            "Rows"
+          ],
+          "reps": "12-15 repetitions X 3 sets",
+          "calories_burned": 300
+        },
+        {
+          "day": "Tuesday",
+          "exercise": "Moderate Intensity Cardio",
+          "duration_for_cardio": "25 minutes",
+          "details": [
+            "Brisk Walking",
+            "Elliptical Training",
+            "Swimming"
+          ],
+          "calories_burned": 250
+        },
+        {
+          "day": "Wednesday",
+          "rest_day": true,
+          "details": "Rest and Recovery",
+          "calories_burned": 150
+        },
+        {
+          "day": "Thursday",
+          "exercise": "Functional Strength Training",
+          "details": "Functional Movements with Resistance",
+          "duration_for_cardio": "20 minutes",
+          "focus": "Functional Strength",
+          "strength_training_details": [
+            "Kettlebell Lunges",
+            "Resistance Band Pulls",
+            "Plank Variations"
+          ],
+          "reps": "10-12 repetitions X 3 sets",
+          "weights": "Moderate weights",
+          "calories_burned": 280
+        },
+        {
+          "day": "Friday",
+          "exercise": "Yoga and Flexibility",
+          "duration_for_cardio": "15 minutes",
+          "details": [
+            "Yoga Poses",
+            "Stretching Exercises"
+          ],
+          "calories_burned": 180
+        },
+        {
+          "day": "Saturday",
+          "rest_day": false,
+          "details": "Outdoor Activities or Sports",
+          "calories_burned": 200
+        },
+        {
+          "day": "Sunday",
+          "exercise": "Low Impact Cardio",
+          "details": "Walking, Cycling",
+          "duration_for_cardio": "40 minutes",
+          "focus": "Low Impact",
+          "strength_training_details": [
+            "Bodyweight Squats",
+            "Light Dumbbell Rows",
+            "Push-ups"
+          ],
+          "reps": "10-12 repetitions X 3 sets",
+          "weights": "Light weights",
+          "calories_burned": 350
+        }
+      ]
+    }
+  ]
+}

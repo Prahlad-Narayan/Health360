@@ -1,0 +1,175 @@
+/* Styling for elements with class .search-food-page */
+.search-food-page {
+    height: 100%;
+}
+
+/* Styling for the container of the search food page */
+.search-food-page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0.9;
+    margin: 0 auto;
+    background-color: #191919;
+    border: 1px solid #000000;
+    width: 50%;
+    padding: 20px;
+    min-width: 400px;
+}
+
+/* Styling for the heading within the search food page */
+.search-heading {
+    padding: 5px 0;
+}
+
+/* Styling for the wrapper of the search food container */
+.search-food-container-wrapper {
+    padding-top: 20px;
+}
+
+/* Styling for the input section of the search food page */
+.search-food-input-section {
+    margin: auto;
+
+    /* Styling for the flex container within the input section */
+    div {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* Styling for paragraphs within the input section */
+    p {
+        padding: 5px 0;
+    }
+
+    /* Styling for input elements within the input section */
+    input {
+        margin-bottom: 0;
+    }
+
+    /* Styling for buttons within the input section */
+    button {
+        width: 100px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: 2px;
+        border-radius: 5px;
+        background-color: aliceblue;
+        color: black; 
+
+        /* Styling for button hover state */
+        &:hover {
+            background-color: #191919;
+            color: aliceblue; 
+            font-weight: 600;
+        }
+    }
+}
+
+/* Styling for the result section of the search food page */
+.search-food-result {
+    width: 39%;
+    margin: auto;
+
+    /* Styling for heading level 3 within the result section */
+    h3 {
+        text-align: left;   
+    }
+
+    /* Styling for unordered list within the result section */
+    ul {
+        list-style-type: none;
+        padding: 5px 0;
+
+        /* Styling for list items within the result section */
+        li {
+            padding: 5px 0;
+            margin: 5px auto;
+            width: 50%;
+            background-color: aliceblue;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+            opacity: 0.9;
+            color: black;
+
+            /* Styling for list item hover state */
+            &:hover {
+                background-color: black;
+                color: aliceblue;
+            }
+        }
+    }
+}
+
+/* Styling for the save section of the search food page */
+.search-food-save {
+    width: 100%;
+}
+
+/* Styling for the container of quantity selection */
+.select-qty-container {
+    display: flex;
+    align-items: center;
+
+    /* Styling for heading level 3 within the quantity selection container */
+    h3 {
+        width: 50%;
+    }
+
+    /* Styling for input elements within the quantity selection container */
+    input {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+/* Styling for the nutrition facts section */
+.nutrition-facts {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    /* Styling for paragraphs within the nutrition facts section */
+    p {
+        text-align: left;
+    }
+}
+
+/* Styling for the save container */
+.save-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the select and save container */
+.select-and-save {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Styling for buttons within the select and save container */
+    button {
+        width: 25%;
+    }
+}
+
+/* Styling for the save button */
+.save-btn {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black; 
+
+    /* Styling for save button hover state */
+    &:hover {
+        background-color: #191919;
+        color: aliceblue; 
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,65 @@
+/* Apply Nunito font to all elements */
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+/* Set height to 100% for body, html, and #root */
+body,
+html,
+#root {
+    height: 100%;
+}
+
+/* Styling for the background image */
+.pic {
+    background-image: url("dietpic.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280vh; /* Adjusted height for demonstration purposes */
+}
+
+/* Styling for the diet plan list container */
+.diet-plan-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the diet plan card */
+.card {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #000000b4;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+/* Styling for table elements and cells */
+table, tr, td, th {
+    border: 1px solid #ffffff;
+}
+
+/* Styling for table cells */
+td {
+    padding: 4px;
+}
+
+/* Styling for the diet plan number */
+.plannum {
+    padding-bottom: 5px;
+}
+
+/* Styling for the diet plan name */
+.dietname {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+    font-weight: 800;
+}

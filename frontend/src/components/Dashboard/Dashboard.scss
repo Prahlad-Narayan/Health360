@@ -1,0 +1,134 @@
+/* Styling for the background image of the dashboard */
+.dashboardpic {
+    width: 100%;
+    height: 115vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("dashboardpic3.jpg");
+}
+
+/* Styling for the chart element */
+.chart {
+    height: 200px;
+    width: 200px;
+}
+
+/* Styling for the summary content section */
+.summarycontent {
+    display: flex;
+    justify-content: space-around;  
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+/* Styling for the summary header section */
+.summary-header {
+    width: 45vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.749);
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Styling for h1 element within the summary header */
+.summary-header > h1 {
+    text-align: center;
+}
+
+/* Styling for the summary data section */
+.summarydata {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+
+/* Styling for summary details paragraphs */
+.summary-details p {
+    background-color: rgba(240, 248, 255, 0.81);
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Styling for the track button */
+.trackbutton {
+    position: absolute;
+    left: 18vw;
+    padding: 10px;
+    font-size: 1vw;
+    font-weight: 900;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: none;
+
+    /* Styling for track button hover state */
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+    }
+}
+
+/* Styling for anchor elements */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Styling for the discover section */
+.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.744);
+    width: 70vw;
+    margin-top: 50px;
+    border-radius: 8px;
+    position: absolute;
+    left: 15vw;
+}
+
+/* Styling for the discover header */
+.discover-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px 0 10px 0;
+    margin: 0 20px 20px 20px;
+}
+
+/* Styling for the discover container */
+.discover-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22vh;
+    padding: 0;
+}
+
+/* Styling for discover items */
+.discover-items {
+    font-size: 1.3vw;
+    list-style-type: none;
+    text-align: center;
+    padding: 3.5vw;
+    width: 10vw;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 6vh;
+
+    /* Styling for discover items hover state */
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+    }
+}

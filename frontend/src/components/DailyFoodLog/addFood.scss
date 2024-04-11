@@ -1,0 +1,448 @@
+/* Styling for elements with classes .add-food and .select-date */
+.add-food, .select-date {
+    color: aliceblue;
+}
+
+/* Styling for the main container of meals */
+.meal-container {
+    opacity: 0.9;
+    margin: 0 auto;
+    background-color: #191919;
+    border: 1px solid #000000;
+    width: 50%;
+    align-items: center;
+    padding: 20px;
+    min-width: 800px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 100px 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr;
+    grid-template-rows: auto;
+
+    /* Styling for buttons within the container */
+    button {
+        border-radius: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: 2px;
+        background-color: aliceblue;
+        color: black; 
+
+        &:hover {
+            background-color: #191919;
+            color: aliceblue; 
+            font-weight: 600;
+        }
+    }
+
+    /* Styling for heading level 3 within the container */
+    h3 {
+        margin: 0;
+    }
+}
+
+/* Styling for the date bar */
+.date-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Styling for elements with class .select-date */
+.select-date {
+    background-color: black;
+    color: aliceblue;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Styling for date picker wrapper */
+.react-datepicker-wrapper {
+    margin-right: auto;
+}
+
+/* Styling for date picker input */
+.react-datepicker-wrapper input {
+    margin: 0;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    background-color: aliceblue;
+    font-weight: 700;
+    font-size: medium;
+}
+
+/* Styling for custom date picker input */
+.custom-datepicker-input {
+    position: relative;
+    display: inline-block;
+
+    /* Styling for text input within custom date picker */
+    input[type='text'] {
+        padding-right: 30px;
+    }
+
+    /* Styling for calendar icon within custom date picker */
+    .calendar-icon {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        color: black;
+    }
+}
+
+/* Styling for background image with class .bg-img-food */
+.bg-img-food {
+    background-image: url("dietplanImage.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styling for arrow icon */
+.arrow-icon {
+    padding: 7px 8px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    background-color: #000000;
+    cursor: pointer;
+    font-size: small;
+}
+
+/* Styling for arrow icon on hover */
+.arrow-icon:hover {
+    background-color: aliceblue;
+    color: #212121;
+    opacity: 0.5;
+    border-color: black;
+}
+
+/* Styling for elements with class .food-page */
+.food-page {
+    height: 100%;
+}
+
+/* Styling for heading within food page */
+.food-heading {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .calories-heading */
+.calories-heading {
+    grid-area: 1 / 3 / 2 / 4;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .carbs-heading */
+.carbs-heading {
+    grid-area: 1 / 4 / 2 / 5;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .fat-heading */
+.fat-heading {
+    grid-area: 1 / 5 / 2 / 6;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .protein-heading */
+.protein-heading {
+    grid-area: 1 / 6 / 2 / 7;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .sodium-heading */
+.sodium-heading {
+    grid-area: 1 / 7 / 2 / 8;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .sugar-heading */
+.sugar-heading {
+    grid-area: 1 / 8 / 2 / 9;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .breakfast-heading */
+.breakfast-heading {
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: center;
+}
+
+/* Styling for heading with class .lunch-heading */
+.lunch-heading {
+    grid-area: 3 / 1 / 4 / 2;
+    text-align: center;
+}
+
+/* Styling for heading with class .dinner-heading */
+.dinner-heading {
+    grid-area: 4 / 1 / 5 / 2;
+    text-align: center;
+}
+
+/* Styling for heading with class .snack-heading */
+.snack-heading {
+    grid-area: 5 / 1 / 6 / 2;
+    text-align: center;
+}
+
+/* Styling for item name within breakfast */
+.breakfast-name {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: center;
+}
+
+/* Styling for item calories within breakfast */
+.breakfast-calories {
+    grid-area: 2 / 3 / 3 / 4;
+    text-align: center;
+}
+
+/* Styling for item carbs within breakfast */
+.breakfast-carbs {
+    grid-area: 2 / 4 / 3 / 5;
+    text-align: center;
+}
+
+/* Styling for item fat within breakfast */
+.breakfast-fat {
+    grid-area: 2 / 5 / 3 / 6;
+    text-align: center;
+}
+
+/* Styling for item protein within breakfast */
+.breakfast-protein {
+    grid-area: 2 / 6 / 3 / 7;
+    text-align: center;
+}
+
+/* Styling for item sodium within breakfast */
+.breakfast-sodium {
+    grid-area: 2 / 7 / 3 / 8;
+    text-align: center;
+}
+
+/* Styling for item sugar within breakfast */
+.breakfast-sugar {
+    grid-area: 2 / 8 / 3 / 9;
+    text-align: center;
+}
+
+/* Styling for delete button within breakfast */
+.breakfast-delete {
+    grid-area: 2 / 9 / 3 / 10;
+    text-align: center;
+}
+
+/* Styling for item name within lunch */
+.lunch-name {
+    grid-area: 3 / 2 / 4 / 3;
+    text-align: center;
+}
+
+/* Styling for item calories within lunch */
+.lunch-calories {
+    grid-area: 3 / 3 / 4 / 4;
+    text-align: center;
+}
+
+/* Styling for item carbs within lunch */
+.lunch-carbs {
+    grid-area: 3 / 4 / 4 / 5;
+    text-align: center;
+}
+
+/* Styling for item fat within lunch */
+.lunch-fat {
+    grid-area: 3 / 5 / 4 / 6;
+    text-align: center;
+}
+
+/* Styling for item protein within lunch */
+.lunch-protein {
+    grid-area: 3 / 6 / 4 / 7;
+    text-align: center;
+}
+
+/* Styling for item sodium within lunch */
+.lunch-sodium {
+    grid-area: 3 / 7 / 4 / 8;
+    text-align: center;
+}
+
+/* Styling for item sugar within lunch */
+.lunch-sugar {
+    grid-area: 3 / 8 / 4 / 9;
+    text-align: center;
+}
+
+/* Styling for delete button within lunch */
+.lunch-delete {
+    grid-area: 3 / 9 / 4 / 10;
+    text-align: center;
+}
+
+/* Styling for item name within dinner */
+.dinner-name {
+    grid-area: 4 / 2 / 5 / 3;
+    text-align: center;
+}
+
+/* Styling for item calories within dinner */
+.dinner-calories {
+    grid-area: 4 / 3 / 5 / 4;
+    text-align: center;
+}
+
+/* Styling for item carbs within dinner */
+.dinner-carbs {
+    grid-area: 4 / 4 / 5 / 5;
+    text-align: center;
+}
+
+/* Styling for item fat within dinner */
+.dinner-fat {
+    grid-area: 4 / 5 / 5 / 6;
+    text-align: center;
+}
+
+/* Styling for item protein within dinner */
+.dinner-protein {
+    grid-area: 4 / 6 / 5 / 7;
+    text-align: center;
+}
+
+/* Styling for item sodium within dinner */
+.dinner-sodium {
+    grid-area: 4 / 7 / 5 / 8;
+    text-align: center;
+}
+
+/* Styling for item sugar within dinner */
+.dinner-sugar {
+    grid-area: 4 / 8 / 5 / 9;
+    text-align: center;
+}
+
+/* Styling for delete button within dinner */
+.dinner-delete {
+    grid-area: 4 / 9 / 5 / 10;
+    text-align: center;
+}
+
+/* Styling for item name within snack */
+.snack-name {
+    grid-area: 5 / 2 / 6 / 3;
+    text-align: center;
+}
+
+/* Styling for item calories within snack */
+.snack-calories {
+    grid-area: 5 / 3 / 6 / 4;
+    text-align: center;
+}
+
+/* Styling for item carbs within snack */
+.snack-carbs {
+    grid-area: 5 / 4 / 6 / 5;
+    text-align: center;
+}
+
+/* Styling for item fat within snack */
+.snack-fat {
+    grid-area: 5 / 5 / 6 / 6;
+    text-align: center;
+}
+
+/* Styling for item protein within snack */
+.snack-protein {
+    grid-area: 5 / 6 / 6 / 7;
+    text-align: center;
+}
+
+/* Styling for item sodium within snack */
+.snack-sodium {
+    grid-area: 5 / 7 / 6 / 8;
+    text-align: center;
+}
+
+/* Styling for item sugar within snack */
+.snack-sugar {
+    grid-area: 5 / 8 / 6 / 9;
+    text-align: center;
+}
+
+/* Styling for delete button within snack */
+.snack-delete {
+    grid-area: 5 / 9 / 6 / 10;
+    text-align: center;
+}
+
+/* Styling for items common to all items (name, calories, carbs, fat, protein, sodium, sugar, delete) */
+.item-name, .item-calories, .item-carbs, .item-fat, .item-protein, .item-sodium, .item-sugar, .item-delete {
+    padding: 5px;
+}
+
+/* Styling for delete button within item */
+.item-delete {
+    cursor: pointer;
+}
+
+/* Styling for delete button on hover */
+.item-delete:hover {
+    color: black;
+}
+
+/* Styling for total calories heading */
+.total-calories-heading {
+    grid-area: 6 / 1 / 7 / 2;
+    text-align: center;
+}
+
+/* Styling for total calories value */
+.total-calories-value {
+    grid-area: 6 / 3 / 7 / 4;
+    text-align: center;
+}
+
+/* Styling for total carbs value */
+.total-carbs-value {
+    grid-area: 6 / 4 / 7 / 5;
+    text-align: center;
+}
+
+/* Styling for total fat value */
+.total-fat-value {
+    grid-area: 6 / 5 / 7 / 6;
+    text-align: center;
+}
+
+/* Styling for total protein value */
+.total-protein-value {
+    grid-area: 6 / 6 / 7 / 7;
+    text-align: center;
+}
+
+/* Styling for total sodium value */
+.total-sodium-value {
+    grid-area: 6 / 7 / 7 / 8;
+    text-align: center;
+}
+
+/* Styling for total sugar value */
+.total-sugar-value {
+    grid-area: 6 / 8 / 7 / 9;
+    text-align: center;
+}

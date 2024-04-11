@@ -1,0 +1,743 @@
+{
+    "diet_plans": [
+      {
+        "goal": "weight_loss",
+        "plan_name": "Vegetarian Weight Loss Plan 1",
+        "meals": [
+          {
+            "type": "Vegetarian",
+            "name": "Breakfast",
+            "description": "Oatmeal with fruits",
+            "portion": "1 cup",
+            "calories": 150
+          },
+          { 
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Greek yogurt with almonds",
+            "portion": "1/2 cup yogurt, 1 ounce almonds",
+            "calories": 200
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Lunch",
+            "description": "Quinoa salad with mixed vegetables",
+            "portion": "2 cups",
+            "calories": 400
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Carrot and cucumber sticks with hummus",
+            "portion": "1 cup veggies, 2 tablespoons hummus",
+            "calories": 100
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Dinner",
+            "description": "Grilled tofu with steamed broccoli",
+            "portion": "6 ounces tofu, 1 cup broccoli",
+            "calories": 350
+          }
+        ]
+      },
+      {
+        "goal": "weight_loss",
+        "plan_name": "Vegetarian Weight Loss Plan 2",
+        "meals": [
+          {
+            "type": "Vegetarian",
+            "name": "Breakfast",
+            "description": "Smoothie with spinach, banana, and almond milk",
+            "portion": "2 cups",
+            "calories": 200
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Apple slices with peanut butter",
+            "portion": "1 medium apple, 2 tablespoons peanut butter",
+            "calories": 250
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Lunch",
+            "description": "Lentil soup with a side of mixed greens",
+            "portion": "2 cups soup, 1.5 cups salad",
+            "calories": 350
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Mixed berries and cottage cheese",
+            "portion": "1 cup berries, 1/2 cup cottage cheese",
+            "calories": 150
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Dinner",
+            "description": "Baked sweet potato with roasted chickpeas",
+            "portion": "1 medium sweet potato, 1 cup chickpeas",
+            "calories": 450
+          }
+        ]
+      },
+      {
+        "goal": "weight_gain",
+        "plan_name": "Vegetarian Weight Gain Plan 1",
+        "meals": [
+          {
+            "type": "Vegetarian",
+            "name": "Breakfast",
+            "description": "Avocado toast with poached eggs",
+            "portion": "2 slices toast, 1 avocado, 2 eggs",
+            "calories": 500
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Banana and nut butter",
+            "portion": "1 medium banana, 2 tablespoons nut butter",
+            "calories": 250
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Lunch",
+            "description": "Quinoa bowl with black beans and avocado",
+            "portion": "2 cups",
+            "calories": 450
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Trail mix with dried fruits and nuts",
+            "portion": "1/2 cup",
+            "calories": 300
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Dinner",
+            "description": "Creamy mushroom and spinach pasta",
+            "portion": "2 cups",
+            "calories": 600
+          }
+        ]
+      },
+      {
+        "goal": "weight_gain",
+        "plan_name": "Vegetarian Weight Gain Plan 2",
+        "meals": [
+          {
+            "type": "Vegetarian",
+            "name": "Breakfast",
+            "description": "Greek yogurt with granola and berries",
+            "portion": "1 cup yogurt, 1/2 cup granola, 1/2 cup berries",
+            "calories": 400
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Cheese and whole-grain crackers",
+            "portion": "2 ounces cheese, 1 cup crackers",
+            "calories": 350
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Lunch",
+            "description": "Sweet potato and black bean burritos",
+            "portion": "2 burritos",
+            "calories": 500
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Chocolate protein smoothie",
+            "portion": "2 cups",
+            "calories": 300
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Dinner",
+            "description": "Stuffed bell peppers with quinoa and beans",
+            "portion": "2 peppers",
+            "calories": 450
+          }
+        ]
+      },
+      {
+        "goal": "maintain_weight",
+        "plan_name": "Vegetarian Maintenance Plan 1",
+        "meals": [
+          {
+            "type": "Vegetarian",
+            "name": "Breakfast",
+            "description": "Whole grain toast with peanut butter",
+            "portion": "2 slices toast, 2 tablespoons peanut butter",
+            "calories": 350
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Mixed fruit cup",
+            "portion": "1 cup",
+            "calories": 60
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Lunch",
+            "description": "Chickpea and vegetable stir-fry",
+            "portion": "2 cups",
+            "calories": 400
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Yogurt and granola parfait",
+            "portion": "1 cup",
+            "calories": 250
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Dinner",
+            "description": "Cauliflower and chickpea curry",
+            "portion": "2 cups",
+            "calories": 450
+          }
+        ]
+      },
+      {
+        "goal": "maintain_weight",
+        "plan_name": "Vegetarian Maintenance Plan 2",
+        "meals": [
+          {
+            "type": "Vegetarian",
+            "name": "Breakfast",
+            "description": "Chia seed pudding with mixed berries",
+            "portion": "1 cup",
+            "calories": 250
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Vegetable sticks with tzatziki",
+            "portion": "1 cup veggies, 2 tablespoons tzatziki",
+            "calories": 80
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Lunch",
+            "description": "Spinach and feta stuffed mushrooms",
+            "portion": "2 cups",
+            "calories": 350
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Snack",
+            "description": "Nuts and dried fruit mix",
+            "portion": "1/2 cup",
+            "calories": 250
+          },
+          {
+            "type": "Vegetarian",
+            "name": "Dinner",
+            "description": "Quinoa and black bean stuffed peppers",
+            "portion": "2 peppers",
+            "calories": 400
+          }
+        ]
+      },
+      {
+        "goal": "weight_loss",
+        "plan_name": "Vegan Weight Loss Plan 1",
+        "meals": [
+          {
+            "type": "Vegan",
+            "name": "Breakfast",
+            "description": "Chia seed pudding with mixed berries",
+            "portion": "1 cup",
+            "calories": 200
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Almond and banana smoothie",
+            "portion": "2 cups",
+            "calories": 250
+          },
+          {
+            "type": "Vegan",
+            "name": "Lunch",
+            "description": "Quinoa and black bean salad",
+            "portion": "2 cups",
+            "calories": 350
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Mixed nuts and dried fruits",
+            "portion": "1/2 cup",
+            "calories": 200
+          },
+          {
+            "type": "Vegan",
+            "name": "Dinner",
+            "description": "Stuffed bell peppers with lentils",
+            "portion": "2 peppers",
+            "calories": 400
+          }
+        ]
+      },
+      {
+        "goal": "weight_loss",
+        "plan_name": "Vegan Weight Loss Plan 2",
+        "meals": [
+          {
+            "type": "Vegan",
+            "name": "Breakfast",
+            "description": "Green smoothie with kale, banana, and coconut water",
+            "portion": "2 cups",
+            "calories": 180
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Avocado and tomato rice cakes",
+            "portion": "2 rice cakes, 1 avocado, 1 tomato",
+            "calories": 220
+          },
+          {
+            "type": "Vegan",
+            "name": "Lunch",
+            "description": "Lentil and vegetable soup",
+            "portion": "2 cups",
+            "calories": 300
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Hummus with carrot and cucumber sticks",
+            "portion": "1/2 cup hummus, 1 cup veggies",
+            "calories": 150
+          },
+          {
+            "type": "Vegan",
+            "name": "Dinner",
+            "description": "Baked tofu with quinoa and roasted vegetables",
+            "portion": "6 ounces tofu, 1 cup quinoa, assorted vegetables",
+            "calories": 450
+          }
+        ]
+      },
+      {
+        "goal": "weight_gain",
+        "plan_name": "Vegan Weight Gain Plan 1",
+        "meals": [
+          {
+            "type": "Vegan",
+            "name": "Breakfast",
+            "description": "Peanut butter and banana toast",
+            "portion": "2 slices toast, 2 tablespoons peanut butter, 1 banana",
+            "calories": 500
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Trail mix with nuts and dried fruits",
+            "portion": "1/2 cup",
+            "calories": 300
+          },
+          {
+            "type": "Vegan",
+            "name": "Lunch",
+            "description": "Chickpea and vegetable curry with brown rice",
+            "portion": "2 cups curry, 1 cup brown rice",
+            "calories": 550
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Coconut and date energy balls",
+            "portion": "4 balls",
+            "calories": 250
+          },
+          {
+            "type": "Vegan",
+            "name": "Dinner",
+            "description": "Sweet potato and black bean enchiladas",
+            "portion": "2 enchiladas",
+            "calories": 600
+          }
+        ]
+      },
+      {
+        "goal": "weight_gain",
+        "plan_name": "Vegan Weight Gain Plan 2",
+        "meals": [
+          {
+            "type": "Vegan",
+            "name": "Breakfast",
+            "description": "Vegan protein smoothie with berries and almond milk",
+            "portion": "2 cups",
+            "calories": 400
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Cashew and coconut bliss balls",
+            "portion": "4 balls",
+            "calories": 350
+          },
+          {
+            "type": "Vegan",
+            "name": "Lunch",
+            "description": "Quinoa and avocado salad with lemon-tahini dressing",
+            "portion": "2 cups",
+            "calories": 500
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Vegan yogurt with granola",
+            "portion": "1 cup yogurt, 1/2 cup granola",
+            "calories": 300
+          },
+          {
+            "type": "Vegan",
+            "name": "Dinner",
+            "description": "Stir-fried tempeh with broccoli and brown rice",
+            "portion": "6 ounces tempeh, 1 cup broccoli, 1 cup brown rice",
+            "calories": 650
+          }
+        ]
+      },
+      {
+        "goal": "maintain_weight",
+        "plan_name": "Vegan Maintenance Plan 1",
+        "meals": [
+          {
+            "type": "Vegan",
+            "name": "Breakfast",
+            "description": "Oatmeal with almond butter and banana",
+            "portion": "1 cup",
+            "calories": 350
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Vegan protein bar",
+            "portion": "1 bar",
+            "calories": 200
+          },
+          {
+            "type": "Vegan",
+            "name": "Lunch",
+            "description": "Veggie wrap with hummus",
+            "portion": "1 wrap",
+            "calories": 400
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Mixed fruit bowl",
+            "portion": "1 cup",
+            "calories": 150
+          },
+          {
+            "type": "Vegan",
+            "name": "Dinner",
+            "description": "Spaghetti with vegan tomato sauce",
+            "portion": "2 cups",
+            "calories": 450
+          }
+        ]
+      },
+      {
+        "goal": "maintain_weight",
+        "plan_name": "Vegan Maintenance Plan 2",
+        "meals": [
+          {
+            "type": "Vegan",
+            "name": "Breakfast",
+            "description": "Vegan blueberry pancakes",
+            "portion": "3 pancakes",
+            "calories": 300
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Rice cakes with avocado and cherry tomatoes",
+            "portion": "2 rice cakes, 1 avocado, 1 cup cherry tomatoes",
+            "calories": 250
+          },
+          {
+            "type": "Vegan",
+            "name": "Lunch",
+            "description": "Quinoa and kale salad with balsamic vinaigrette",
+            "portion": "2 cups",
+            "calories": 350
+          },
+          {
+            "type": "Vegan",
+            "name": "Snack",
+            "description": "Vegan chocolate energy bites",
+            "portion": "4 bites",
+            "calories": 200
+          },
+          {
+            "type": "Vegan",
+            "name": "Dinner",
+            "description": "Stuffed portobello mushrooms with couscous",
+            "portion": "2 mushrooms, 1 cup couscous",
+            "calories": 400
+          }
+        ]
+      },
+      {
+        "goal": "weight_loss",
+        "plan_name": "Non Vegetarian Weight Loss Plan 1",
+        "meals": [
+          {
+            "type": "NV",
+            "name": "Breakfast",
+            "description": "Egg and vegetable omelette",
+            "portion": "2 eggs, assorted vegetables",
+            "calories": 250
+          },
+          {
+            "type": "NV",
+            "name": "Snack",
+            "description": "Greek yogurt with mixed berries",
+            "portion": "1 cup yogurt, 1/2 cup mixed berries",
+            "calories": 200
+          },
+          {
+            "type": "NV",
+            "name": "Lunch",
+            "description": "Grilled chicken salad",
+            "portion": "4 ounces grilled chicken, mixed greens",
+            "calories": 400
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Turkey and cheese roll-ups",
+            "portion": "4 slices turkey, 2 slices cheese",
+            "calories": 150
+          },
+          {
+            "type": "nv",
+            "name": "Dinner",
+            "description": "Baked salmon with quinoa",
+            "portion": "6 ounces salmon, 1 cup quinoa",
+            "calories": 450
+          }
+        ]
+      },
+      {
+        "goal": "weight_loss",
+        "plan_name": "Non-Vegetarian Weight Loss Plan 2",
+        "meals": [
+          {
+            "type": "nv",
+            "name": "Breakfast",
+            "description": "Smoked mackerel with whole grain toast",
+            "portion": "4 ounces mackerel, 2 slices toast",
+            "calories": 300
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Cottage cheese and pineapple",
+            "portion": "1/2 cup cottage cheese, 1 cup pineapple",
+            "calories": 180
+          },
+          {
+            "type": "nv",
+            "name": "Lunch",
+            "description": "Shrimp stir-fry with vegetables",
+            "portion": "6 ounces shrimp, assorted vegetables",
+            "calories": 380
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Beef jerky and mixed nuts",
+            "portion": "2 ounces beef jerky, 1/2 cup mixed nuts",
+            "calories": 220
+          },
+          {
+            "type": "Nv",
+            "name": "Dinner",
+            "description": "Grilled steak with sweet potato",
+            "portion": "8 ounces steak, 1 medium sweet potato",
+            "calories": 500
+          }
+        ]
+      },
+      {
+        "goal": "weight_gain",
+        "plan_name": "Non-Vegetarian Weight Gain Plan 1",
+        "meals": [
+          {
+            "type": "nv",
+            "name": "Breakfast",
+            "description": "Bacon and cheese stuffed omelette",
+            "portion": "3 eggs, bacon, cheese",
+            "calories": 600
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Protein smoothie with milk and banana",
+            "portion": "2 cups, 1 banana",
+            "calories": 350
+          },
+          {
+            "type": "nv",
+            "name": "Lunch",
+            "description": "Pasta with chicken Alfredo",
+            "portion": "2 cups pasta, 6 ounces chicken",
+            "calories": 700
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Hard-boiled eggs with avocado",
+            "portion": "2 eggs, 1 avocado",
+            "calories": 450
+          },
+          {
+            "type": "nv",
+            "name": "Dinner",
+            "description": "Beef and vegetable stir-fry with rice",
+            "portion": "8 ounces beef, mixed vegetables, 1 cup rice",
+            "calories": 800
+          }
+        ]
+      },
+      {
+        "goal": "weight_gain",
+        "plan_name": "Non-Vegetarian Weight Gain Plan 2",
+        "meals": [
+          {
+            "type": "nv",
+            "name": "Breakfast",
+            "description": "Sausage and cheese breakfast burrito",
+            "portion": "2 sausages, cheese, tortilla",
+            "calories": 500
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Dried fruits and nut mix",
+            "portion": "1 cup",
+            "calories": 300
+          },
+          {
+            "type": "nv",
+            "name": "Lunch",
+            "description": "Chicken and rice casserole",
+            "portion": "2 cups",
+            "calories": 600
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Cheese and pepperoni slices",
+            "portion": "2 ounces cheese, 10 slices pepperoni",
+            "calories": 400
+          },
+          {
+            "type": "nv",
+            "name": "Dinner",
+            "description": "Salmon with mashed potatoes",
+            "portion": "6 ounces salmon, 1 cup mashed potatoes",
+            "calories": 700
+          }
+        ]
+      },
+      {
+        "goal": "maintain_weight",
+        "plan_name": "Non-Vegetarian Maintenance Plan 1",
+        "meals": [
+          {
+            "type": "nv",
+            "name": "Breakfast",
+            "description": "Ham and cheese sandwich",
+            "portion": "2 slices bread, ham, cheese",
+            "calories": 450
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Mixed nuts and dried fruit",
+            "portion": "1/2 cup",
+            "calories": 250
+          },
+          {
+            "type": "nv",
+            "name": "Lunch",
+            "description": "Tuna salad wrap",
+            "portion": "1 wrap",
+            "calories": 400
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Cheese and crackers",
+            "portion": "2 ounces cheese, 1 cup crackers",
+            "calories": 300
+          },
+          {
+            "type": "nv",
+            "name": "Dinner",
+            "description": "Beef and vegetable kebabs with quinoa",
+            "portion": "8 ounces beef, mixed vegetables, 1 cup quinoa",
+            "calories": 550
+          }
+        ]
+      },
+      {
+        "goal": "maintain_weight",
+        "plan_name": "Non-Vegetarian Maintenance Plan 2",
+        "meals": [
+          {
+            "type": "nv",
+            "name": "Breakfast",
+            "description": "Sausage and egg muffin",
+            "portion": "1 muffin, sausage patty, egg",
+            "calories": 400
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Smoked salmon and cream cheese bagel",
+            "portion": "1 bagel, smoked salmon, cream cheese",
+            "calories": 350
+          },
+          {
+            "type": "nv",
+            "name": "Lunch",
+            "description": "Chicken Caesar salad",
+            "portion": "2 cups",
+            "calories": 500
+          },
+          {
+            "type": "nv",
+            "name": "Snack",
+            "description": "Turkey and cheese roll-ups",
+            "portion": "4 slices turkey, 2 slices cheese",
+            "calories": 200
+          },
+          {
+            "type": "nv",
+            "name": "Dinner",
+            "description": "Pork chops with sweet potato mash",
+            "portion": "2 chops, 1 cup sweet potato mash",
+            "calories": 600
+          }
+        ]
+      }
+    ]
+  }
+  

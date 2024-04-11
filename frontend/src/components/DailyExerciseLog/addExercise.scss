@@ -1,0 +1,130 @@
+/* Styling for elements with class .add-exercise */
+.add-exercise {
+    color: aliceblue;
+}
+
+/* Styling for the container of the exercise page */
+.exercise-container {
+    opacity: 0.9;
+    margin: 0 auto;
+    background-color: #191919;
+    border: 1px solid #000000;
+    width: 50%;
+    align-items: center;
+    padding: 20px;
+    min-width: 800px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 100px 4fr 4fr 4fr 4fr;
+    grid-template-rows: auto;
+
+    /* Styling for buttons within the exercise container */
+    button {
+        border-radius: 100%;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border: 2px;
+        background-color: aliceblue;
+        color: black;
+
+        /* Styling for button hover state */
+        &:hover {
+            background-color: #191919;
+            color: aliceblue;
+            font-weight: 600;
+        }
+    }
+
+    /* Styling for heading level 3 within the exercise container */
+    h3 {
+        margin: 0;
+    }
+}
+
+/* Styling for background image with class .bg-img-exercise */
+.bg-img-exercise {
+    background-image: url("workoutplanImage.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Styling for elements with class .exercise-page */
+.exercise-page {
+    height: 100%;
+}
+
+/* Styling for heading with class .exercise-name-heading */
+.exercise-name-heading {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .calories-burned-heading */
+.calories-burned-heading {
+    grid-area: 1 / 3 / 2 / 4;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .minutes-heading */
+.minutes-heading {
+    grid-area: 1 / 4 / 2 / 5;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Styling for heading with class .exercise-heading */
+.exercise-heading {
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: center;
+}
+
+/* Styling for item name within exercise */
+.exercise-name {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: center;
+}
+
+/* Styling for item calories burned within exercise */
+.exercise-calories-burned {
+    grid-area: 2 / 3 / 3 / 4;
+    text-align: center;
+}
+
+/* Styling for item minutes within exercise */
+.exercise-minutes {
+    grid-area: 2 / 4 / 3 / 5;
+    text-align: center;
+}
+
+/* Styling for delete button within exercise */
+.exercise-delete {
+    grid-area: 2 / 5 / 3 / 6;
+    text-align: center;
+}
+
+/* Styling for items common to all items (name, calories burned, minutes, delete) */
+.item-name, .item-calories-burned, .item-minutes, .item-delete {
+    padding: 5px;
+}
+
+/* Styling for heading with class .total-heading */
+.total-heading {
+    grid-area: 3 / 1 / 4 / 2;
+    text-align: center;
+}
+
+/* Styling for total calories burned value */
+.total-calories-burned {
+    grid-area: 3 / 3 / 4 / 4;
+    text-align: center;
+}
+
+/* Styling for total minutes value */
+.total-minutes {
+    grid-area: 3 / 4 / 4 / 5;
+    text-align: center;
+}

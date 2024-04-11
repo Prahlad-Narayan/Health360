@@ -1,0 +1,83 @@
+/* Styling for the basics-container and update-user-profile-container */
+.basics-container, .update-user-profile-container {
+    background-image: url("running.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    text-align: center;
+}
+
+/* Styling for specific p elements within the root div */
+#root > div > p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* Styling for form within the root div */
+#root > div > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+/* Styling for input elements within the form */
+#root > div > form > input {
+    margin: 3vh;
+    width: 30vh;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #acacac;
+    border-radius: 5px;
+    background-color: #191919; /* Background color for input fields */
+    color: rgb(248, 247, 247); /* Text color for input fields */
+}
+
+/* Remove default spinner appearance for number input */
+#root > div > form > input::-webkit-outer-spin-button,
+#root > div > form > input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Styling for submit button */
+#root > div > form > input[type=submit]:nth-child(7) {
+    width: 33vh;
+    padding: 10px;
+    border: 2px solid #acacac;
+    border-radius: 5px;
+    background-color: #191919;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling for submit button hover state */
+#root > div > form > input[type=submit]:nth-child(7):hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: 600;
+    border: 2px solid #acacac;
+}
+
+/* Styling for placeholder text in number inputs */
+#root > div > form > input[type=number]:nth-child(1)::placeholder,
+#root > div > form > input[type=number]:nth-child(2)::placeholder,
+#root > div > form > input[type=number]:nth-child(3)::placeholder {
+    color: #fff;
+}
+
+/* Styling for select elements within the form */
+#root > div > form > select:nth-child(4),
+#root > div > form > select:nth-child(5),
+#root > div > form > select:nth-child(6) {
+    margin: 3vh;
+    width: 33vh;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #acacac;
+    border-radius: 5px;
+    background-color: #191919; /* Background color for input fields */
+    color: rgb(248, 247, 247); /* Text color for input fields */
+}

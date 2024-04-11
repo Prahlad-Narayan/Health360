@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
+
+* {
+    font-family: "aliceblue", sans-serif;
+    
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+.Main {
+    background-color: rgb(97, 95, 95);
+    background-image: url(bgimg.jpg);
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    min-height: 100vh; /* Full height */
+}
+
+.image {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+h2, p, h4, span {
+    margin: 0; /* Remove default margin for better spacing */
+    padding: 5px; /* Adjust the padding as needed */
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 10px;
+
+}
+
+.edit, .delete, .disabled-delete, .disabled-edit {
+    background-color: #4f4c4c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    gap: 10px;
+  }
+
+  .edit:hover {
+    background-color: #ffffff; /* Darker shade for Edit button on hover */
+    color: #000000;
+}
+
+.delete:hover {
+    background-color: #ffffff; /* Darker shade for Delete button on hover */
+    color: #000000;
+}
+
+.disabled-delete, .disabled-edit {
+    cursor: not-allowed;
+}
+
+
+//Nested Structure
+.blogTitle {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 50px;
+        font-weight: 700;
+        color: #000000;
+    }
+}
+
+
+    .create {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: aliceblue;
+        background-color: #191919; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Smooth transition for better user experience */
+
+        /* Add hover effect */
+        &:hover {
+            background-color: aliceblue; /* Darker shade on hover */
+            color: #191919;
+        }
+    }
+
+    .typing-animation {
+        overflow: hidden; /* Hide overflow to create the typing effect */
+        white-space: nowrap; /* Avoid line breaks */
+        animation: typing 2s steps(20, end); /* Animation duration and steps */
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+
+      /* Add this style to set the text color to white inside each post */
+
+@media only screen and (max-width: 768px) {
+    .footer-logo {
+        padding: 20px 10px;
+    }
+
+    .slogan {
+        padding: 10px;
+    }
+
+    .footer-start {
+        bottom: 150px;
+        right: 10px;
+    }
+
+    .icon {
+        margin: 0 5px;
+    }
+
+    .landing header > div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav a {
+        position: static;
+        margin-top: 10px;
+        right: 0;
+    }
+
+    .blogTitle {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blogTitle h1 {
+        font-size: 30px;
+    }
+
+    .create {
+        margin-top: 80px;
+    }
+    .button {
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
+
+.createpost {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    opacity: 0.8;
+
+    input {
+        width: 95%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        align-content: center;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: larger;
+    }
+
+    textarea {
+        width: 95%;
+        height: 200px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        align-content: center;
+        font-size: large;
+    }
+
+    button {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: aliceblue;
+        background-color: #4f4c4c;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 250px;
+
+        &:hover {
+            background-color: aliceblue;
+            color: #191919;
+        }
+    }
+}
+
+
+
+.editpost-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    /* box-shadow: #cdd5dd 0px 0px 10px; */
+    background-color: #000000;
+    opacity: 0.8;
+  }
+  
+  .editpost-form {
+    input {
+        width: 95%;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        align-content: center;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: larger;
+    }
+
+    textarea {
+        width: 95%;
+        height: 200px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        align-content: center;
+        font-size: large;
+    }
+
+    button {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        color: aliceblue;
+        background-color: #4f4c4c;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 250px;
+
+        &:hover {
+            background-color: aliceblue;
+            color: #191919;
+        }
+    }
+}
+
+  
+
+@keyframes Leftin {
+    0% {
+        opacity: 0;
+        /* transform: translate3d(200px, 100px, 0); */
+    }
+    100% {
+        opacity: 1;
+        /* transform: translate3d(0, 0, 0); */
+    }
+}
+
+
+/* Update the post-container styles */
+.post-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /* Allow posts to wrap to the next line */
+    justify-content: space-between; /* Adjust the space between the cards */
+    max-width: 1000px; /* Set the maximum width of the container */
+    margin: 0 auto;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+/* Update the post styles to handle the spacing */
+/*  */
+
+
+.post {
+    flex: 0 0 calc(30% - 20px);
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, background-color 0.3s, max-height 0.3s;
+    animation: Leftin 2s;
+    background-color: #000000;
+    border-radius: 10px;
+}

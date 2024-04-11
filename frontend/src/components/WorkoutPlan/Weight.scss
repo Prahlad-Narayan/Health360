@@ -1,0 +1,62 @@
+/* Apply Nunito font to all elements */
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+/* Set full height for body, html, and #root */
+body,
+html,
+#root {
+    height: 100%;
+}
+
+/* Styling for plan name */
+.planname {
+    color: aliceblue;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+/* Styling for workout picture container */
+.workout-pic-container {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+/* Styling for workout plan container */
+.workout-plan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Styling for workout card */
+.workout-card {
+    width: 250px;
+    height: 420px;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0000008b;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+/* Styling for weight picture */
+.weightpic {
+    background-image: url("weight.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 170vh;
+}

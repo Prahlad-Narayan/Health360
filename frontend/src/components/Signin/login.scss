@@ -1,0 +1,35 @@
+/* Styling for the login button */
+.login-btn {
+  background-color: #000000;
+}
+
+/* Styling for the vertical line */
+.vl {
+  border-left: 3px solid #acacac;
+  height: 80%;
+}
+
+/* Styling for the logo div */
+.logo-div {
+  max-width: 400px;
+}
+
+/* Styling for the login logo */
+.logo-login {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling for the sign-up form */
+.sign-up-form {
+  color: aliceblue;
+
+  /* Styling for the submit button within the sign-up form */
+  input[type="submit"] {
+    border: 2px;
+    background-color: #191919; /* Background color for the submit button */
+    color: white; /* Text color for the submit button */
+    border: 2px solid #acacac;
+    width: 100%;
+  }
+}
